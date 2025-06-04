@@ -4,13 +4,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 
+import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { Home } from './home/home';
+import { TileGrid } from './tile-grid/tile-grid';
+
 @NgModule({
   declarations: [
-    App
+    App,
+    Home,
+    TileGrid
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    MatGridListModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

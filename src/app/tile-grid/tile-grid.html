@@ -1,0 +1,10 @@
+<section class="tile-grid-container">
+  <mat-grid-list [cols]="gridCols" rowHeight="1:1" gutterSize="16">
+    <mat-grid-tile *ngFor="let tile of tiles">
+      <a class="tile-card" [routerLink]="tile.route">
+          <h3 class="tile-title">{{ tile.title }}</h3>
+          <p class="tile-desc">{{ tile.desc }}</p>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>
