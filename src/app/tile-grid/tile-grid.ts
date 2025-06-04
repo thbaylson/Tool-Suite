@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class TileGrid {
   tiles = [
     { title: 'Tool Manager', desc: 'Create, manage, or delete tools.', route: '/' },
-    { title: 'MTG Card Art for TTS', desc: 'Manage the image displayed for Magic: The Gathering cards used in Tabletop Simulator.', route: '/tools/first' },
+    { title: 'MTG Card Art for TTS', desc: 'Manage the image displayed for Magic: The Gathering cards used in Tabletop Simulator.', route: '/tools/mtg-card-art' },
     { title: 'Dummy Tool Data', desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget sapien eget tellus molestie luctus a eget lectus. Ut erat ante, pharetra eu leo ut, dapibus mollis risus.', route: '/' },
     { title: 'Dummy Tool Data', desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget sapien eget tellus molestie luctus a eget lectus. Ut erat ante, pharetra eu leo ut, dapibus mollis risus.', route: '/' },
     { title: 'Dummy Tool Data', desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget sapien eget tellus molestie luctus a eget lectus. Ut erat ante, pharetra eu leo ut, dapibus mollis risus.', route: '/' },
